@@ -43,3 +43,7 @@ react to do list 예제
 컴포넌트들은 src/components에 저장
 
 ## 3. 기능 구현
+
+1. onInsert: 할 일 추가
+2. onRemove: 할 일 삭제
+3. onToggle: 체크박스 체크
