@@ -1,0 +1,22 @@
+.TodoTemplate {
+  width: 512px;
+
+  // 좌우 중앙정렬
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 10rem;
+
+  border-radius: 1rem;
+  overflow: hidden;
+
+  .app-title {
+    background: #61dafb;
+    height: 4rem;
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
