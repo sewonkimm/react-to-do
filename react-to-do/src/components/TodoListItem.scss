@@ -25,12 +25,13 @@
       flex: 1;
     }
   }
-  &.checked {
+
+  & .checked {
     svg {
       color: #61dafb;
     }
     .text {
-      color: #abd5bd;
+      color: #95dff3;
       text-decoration: line-through;
     }
   }
