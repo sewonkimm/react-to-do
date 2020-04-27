@@ -33,4 +33,13 @@ react to do list 예제
 
 ## 2. UI 구성
 
+### 컴포넌트
+
+1. TodoTemplate: Todo list App을 화면 가운데에 보여줌
+2. TodoInsert: 새 항목을 입력하고 추가할 수 있는 컴포넌트
+3. TodoListItem: 각 할 일 항목에 대한 정보를 보여주는 컴포넌트
+4. TodoList: todos 배열을 props로 받아온 후, 이를 map 함수로 여러개의 TodoListItem 컴포넌트로 변환
+
+컴포넌트들은 src/components에 저장
+
 ## 3. 기능 구현
