@@ -2,6 +2,12 @@
 
 react to do list 예제
 
+![GitHub language count](https://img.shields.io/github/languages/count/sewonkimm/react-to-do)
+![GitHub top language](https://img.shields.io/github/languages/top/sewonkimm/react-to-do)
+![GitHub](https://img.shields.io/github/license/sewonkimm/react-to-do)
+
+![image](https://user-images.githubusercontent.com/30452963/80366637-8be17e80-88c4-11ea-9e6e-9103beb6deb1.png)
+
 ## 1. 프로젝트 준비
 
 ### 프로젝트 생성
