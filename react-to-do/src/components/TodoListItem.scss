@@ -1,11 +1,18 @@
-.TodoListItem {
-  padding: 1rem;
-  display: flex;
-  align-items: center; // 세로 중앙 정렬
+.TodoListItem-virtualized {
+  // 사이 사이 테두리
+  & + & {
+    border-top: 1px solid #dee2e6;
+  }
 
   &:nth-child(even) {
     background: #f8f9fa;
   }
+}
+
+.TodoListItem {
+  padding: 1rem;
+  display: flex;
+  align-items: center; // 세로 중앙 정렬
 
   // checkbox & text
   .checkbox {
@@ -46,10 +53,5 @@
     &:hover {
       color: #f55757;
     }
-  }
-
-  // 사이 사이 테두리
-  & + & {
-    border-top: 1px solid #dee2e6;
   }
 }
